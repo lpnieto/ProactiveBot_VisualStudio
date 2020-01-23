@@ -1,6 +1,6 @@
-# proactive messages
+# Proactive Messages
 
-Bot Framework v4 proactive messages bot sample
+Once you has tested in locally you can depoloy it to Azure repository.
 
 This bot has been created using [Bot Framework](https://dev.botframework.com), it shows how to send proactive messages to users by capturing a conversation reference, then using it later to initialize outbound messages.
 
@@ -15,40 +15,22 @@ all users who have previously messaged the bot.
 
 ## Prerequisites
 
-- [.NET Core SDK](https://dotnet.microsoft.com/download) version 2.1
+-Visual Studio 
+-Microsoft Azure acount. 
 
-  ```bash
-  # determine dotnet version
-  dotnet --version
   ```
 
 ## To try this sample
 
-- Clone the repository
+ Open solution in Visual Studio and login in Azure
 
-    ```bash
-    git clone https://github.com/microsoft/botbuilder-samples.git
-    ```
-
-- In a terminal, navigate to `samples/csharp_dotnetcore/16.proactive-messages`
-- Run the bot from a terminal or from Visual Studio, choose option A or B.
-
-  A) From a terminal
-
-  ```bash
-  # run the bot
-  dotnet run
-  ```
-
-  B) Or from Visual Studio
-
-  - Launch Visual Studio
+- Launch Visual Studio
   - File -> Open -> Project/Solution
   - Navigate to `samples/csharp_dotnetcore/16.proactive-messages` folder
   - Select `ProactiveBot.csproj` file
   - Press `F5` to run the project
 
-## Testing the bot using Bot Framework Emulator
+## Testing the bot using Bot Framework Emulator to run locally
 
 [Bot Framework Emulator](https://github.com/microsoft/botframework-emulator) is a desktop application that allows bot developers to test and debug their bots on localhost or running remotely through a tunnel.
 
